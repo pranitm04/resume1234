@@ -1,0 +1,107 @@
+/body/
+ body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, blue,red); 
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s; }
+    /profile/
+ profile{
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center; 
+        padding: 120px;
+        }
+/* header */
+#header{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center ;
+}
+
+  
+ 
+  .profile-image {
+    float: right;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .head-img img {
+    border-radius: 50%; 
+    width: 250px; 
+    height: 250px; 
+    border: 5px solid black; 
+    transition: transform 0.3s ease-in-out; /
+
+  /* Name */
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Section headers */
+  .section-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual sections */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  /* Individual items within a section */
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  /* Links */
+  .link {
+    color: #bfd30c;
+    text-decoration: none;
+  }
+   /* Skill badge */
+  .skill-badge
+ {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #c9d820; /* Badge background color */
+  color: #bdec13; /* Badge text color */
+  border-radius: 5px;
+  font-size: 14px;
+}
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Programming skills */
+  .programming-skill {
+    display: inline-block;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Hobbies */
+  .hobby {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(198, 204, 34, 0.886);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact information */
+  .contact-info {
+    margin-bottom: 10px;
+  }
